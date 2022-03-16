@@ -26,7 +26,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
     color: #fff;
 }
@@ -93,7 +93,7 @@ h1 {
     background-color: #3882f6;
     border: none;
     cursor: pointer;
-    color: #fff;
+    color: #e5e7eb;
     border-radius: 5px;
     font-size: 1.6rem;
     font-weight: 600;
@@ -106,3 +106,96 @@ h1 {
 }
 
 /* END HERO */
+
+.information {
+    margin: 8rem 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    color:#1f2937;
+    margin-bottom: 5rem;
+}
+
+.info-container {
+    width: 110rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+}
+
+.info-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.info-box p {
+    font-size: 1.6rem;
+}
+
+.info-box img {
+    width: 80px;
+}
+
+/* END INFO */
+
+.quotes {
+    background-color: #e5e7eb;
+    padding: 8rem 0;
+}
+
+.quotes-box {
+    width: 90rem;
+    margin: 0 auto;
+}
+
+blockquote {
+    font-size: 3.6rem;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quotes-author {
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: right;
+    margin-top: 3rem;
+}
+
+/* END quot */
+
+.call-action {
+    width: 120rem;
+    margin: 8rem auto;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.call-container {
+    display: flex;
+    padding: 3rem 8rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+.left p {
+    font-size: 1.4rem;
+}
+
+.right .btn {
+    border: 1px solid #fff;
+}
+
+footer {
+    padding: 3rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
